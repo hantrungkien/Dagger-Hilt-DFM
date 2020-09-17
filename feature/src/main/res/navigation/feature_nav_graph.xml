@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/feature_nav_graph"
+    app:startDestination="@id/featureListFragment">
+
+    <fragment
+        android:id="@+id/featureListFragment"
+        android:name="com.kienht.dagger.hilt.feature.list.FeatureListFragment"
+        android:label="FeatureListFragment">
+
+        <action
+            android:id="@+id/go_to_featureDetailFragment"
+            app:destination="@id/featureDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/featureDetailFragment"
+        android:name="com.kienht.dagger.hilt.feature.detail.FeatureDetailFragment"
+        android:label="FeatureDetailFragment" />
+</navigation>
