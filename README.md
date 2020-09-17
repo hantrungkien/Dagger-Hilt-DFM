@@ -1,1 +1,1 @@
-# dagger-hilt-dfm
+# Hilt and Jetpack integrations in the Dynamic Feature world.
